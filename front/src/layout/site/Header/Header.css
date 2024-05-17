@@ -1,0 +1,32 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 70px;
+    position: fixed;
+    top: 0;
+    z-index: 101;
+    background: #404044;
+    
+}
+      
+.header-left h4{
+    border: 3px solid white;
+    color: white;
+    font-size: 22px;
+}
+.header-right ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;     
+    
+}
+.header-right ul li{
+    list-style-type: none;
+}
+.header-right ul {
+    display: flex;
+    gap: 25px;
+    
+}
